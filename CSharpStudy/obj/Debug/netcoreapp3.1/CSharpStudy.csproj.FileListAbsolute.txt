@@ -1,0 +1,13 @@
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.exe
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.deps.json
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.runtimeconfig.json
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.runtimeconfig.dev.json
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.dll
+C:\vs2019\study\CSharpStudy\CSharpStudy\bin\Debug\netcoreapp3.1\CSharpStudy.pdb
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.csprojAssemblyReference.cache
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.AssemblyInfoInputs.cache
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.AssemblyInfo.cs
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.csproj.CoreCompileInputs.cache
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.dll
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.pdb
+C:\vs2019\study\CSharpStudy\CSharpStudy\obj\Debug\netcoreapp3.1\CSharpStudy.genruntimeconfig.cache
