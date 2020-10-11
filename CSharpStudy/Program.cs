@@ -7,27 +7,25 @@ namespace CSharpStudy
         static void Main(string[] args)
         {
             var num = 1;
-            Console.Write("0~9사이의 값을 입력 : ");
+            //while (true)
+            //{
+            //    num++;
+            //    if (num % 3 == 0)
+            //    {
+            //        continue;
+            //    }
+            //    Console.WriteLine(num);
 
-            var input = Console.ReadLine();
+            //    if (num == 100)
+            //    {
+            //        break;
+            //    }
+            //}
 
-            //string과 integer의 같음을 비교 할수 없음
-            if (input == num.ToString())
+            do
             {
-                Console.WriteLine("값 같음");
-
-            }
-            else
-            {
-                Console.WriteLine("값 틀림");
-            }
-
-            // Java 에서 
-            if (input == num.ToString()){
-                Console.WriteLine("값 같음");
-            }else{
-                Console.WriteLine("값 틀림");
-            }
+                Console.WriteLine(num++);
+            } while (num < 10);
         }
     }
 }
