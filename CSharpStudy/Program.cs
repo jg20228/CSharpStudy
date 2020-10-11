@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharpStudy
 {
@@ -6,26 +7,29 @@ namespace CSharpStudy
     {
         static void Main(string[] args)
         {
-            var num = 1;
-            //while (true)
+            //var num = 1;
+            //for (; num <= 10; num++)
             //{
-            //    num++;
-            //    if (num % 3 == 0)
-            //    {
-            //        continue;
-            //    }
             //    Console.WriteLine(num);
-
-            //    if (num == 100)
-            //    {
-            //        break;
-            //    }
             //}
 
-            do
+            List<int> numberList = new List<int>();
+
+            numberList.Add(1);
+            numberList.Add(2);
+            numberList.Add(3);
+            numberList.Add(4);
+            numberList.Add(5);
+
+            foreach(var num in numberList)
             {
-                Console.WriteLine(num++);
-            } while (num < 10);
+                Console.WriteLine(num);
+            }
+
+            for(var index=1; index<=numberList.Count; index++)
+            {
+                Console.WriteLine(numberList[index]);
+            }
         }
     }
 }
