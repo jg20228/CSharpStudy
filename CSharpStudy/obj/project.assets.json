@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "FirstLibrary/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FirstLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FirstLibrary/1.0.0": {
+      "type": "project",
+      "path": "../FirstLibrary/FirstLibrary.csproj",
+      "msbuildProject": "../FirstLibrary/FirstLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "FirstLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\kk\\.nuget\\packages\\": {},
@@ -37,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj": {
+              "projectPath": "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

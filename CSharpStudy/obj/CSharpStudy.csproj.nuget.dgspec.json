@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj": {
+                "projectPath": "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,6 +62,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj",
+        "projectName": "FirstLibrary",
+        "projectPath": "C:\\vs2019\\study\\CSharpStudy\\FirstLibrary\\FirstLibrary.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }
